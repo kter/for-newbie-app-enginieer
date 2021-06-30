@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kter/for-newbie-app-enginieer/issues"
   },
-  "homepage": "https://github.com/kter/for-newbie-app-enginieer#readme"
+  "homepage": "https://github.com/kter/for-newbie-app-enginieer#readme",
+  "dependencies": {
+    "prh": "^5.4.4"
+  }
 }
