@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup": "curl -s -o prh.yml https://raw.githubusercontent.com/prh/rules/master/media/techbooster.yml"
+    "check": "prh --verify *.md"
   },
   "repository": {
     "type": "git",
