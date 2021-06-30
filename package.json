@@ -1,0 +1,19 @@
+{
+  "name": "for-newbie-app-enginieer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kter@github.com/kter/for-newbie-app-enginieer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kter/for-newbie-app-enginieer/issues"
+  },
+  "homepage": "https://github.com/kter/for-newbie-app-enginieer#readme"
+}
