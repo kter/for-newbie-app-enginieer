@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "setup": "curl -s -o prh.yml https://raw.githubusercontent.com/prh/rules/master/media/techbooster.yml",
-    "check": "prh --verify *.md"
+    "setup": "curl -s -O https://raw.githubusercontent.com/prh/rules/master/media/WEB+DB_PRESS.yml",
+    "check": "textlint *.md"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "dependencies": {
     "prh": "^5.4.4",
     "textlint": "^12.0.0",
-    "textlint-rule-preset-ja-technical-writing": "^6.0.0"
+    "textlint-rule-preset-ja-technical-writing": "^6.0.0",
+    "textlint-rule-prh": "^5.3.0"
   }
 }
