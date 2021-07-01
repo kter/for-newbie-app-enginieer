@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kter/for-newbie-app-enginieer#readme",
   "dependencies": {
     "prh": "^5.4.4",
-    "textlint": "^12.0.0"
+    "textlint": "^12.0.0",
+    "textlint-rule-preset-ja-technical-writing": "^6.0.0"
   }
 }
