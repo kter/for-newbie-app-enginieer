@@ -4,5 +4,8 @@
     "prh": {
       "rulePaths": ["./WEB+DB_PRESS.yml"],
      }
+  },
+  "filters": {
+    "comments": true
   }
 }
