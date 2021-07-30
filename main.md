@@ -344,14 +344,14 @@ drwxr-xr-x 2 takahashi.t engineer 6 Jul 27 08:58 testdirectory
 ##### アクセス権限の変更
 
 誰に何を許可するというアクセス権限を変更するには`chmod`コマンドを使用する。
-例えば先の例で上げた`rwxr-xr-x`を`r-xr-xr-x`に変更する場合になる。
+たとえば先の例で上げた`rwxr-xr-x`を`r-xr-xr-x`に変更する場合だ。
 
 権限の追加の場合次になる。
 `chmod アクセス権限を変更する対象+追加するアクセス権限 ファイル・ディレクトリ名`
 また権限の削除は次になる。
 `chmod アクセス権限を変更する対象-削除するアクセス権限 ファイル・ディレクトリ名`
 
-アクセス権限を変更する対象を所有者なら`u`、グループなら`g`、その他なら`o`として表現する。
+アクセス権限を変更する対象を所有者なら`u`、グループなら`g`、そのほかなら`o`として表現する。
 アクセス権限はそのまま読み取りなら`r`、書き込みは`w`、実行は`x`と表現する。
 
 したがって`rwxr-xr-x`を`r-xr-xr-x`に変更する場合は次のようになる。
@@ -363,11 +363,11 @@ drwxr-xr-x 2 takahashi.t engineer 6 Jul 27 08:58 testdirectory
 `chmod`に比べるとシンプルで、下記書式となる。
 `chown 所有者:所有グループ ファイル・ディレクトリ名`
 
-したがって、
+したがって、次のようなファイルがあるとする。
 `-rw-r--r-- 1 takahashi.t engineer 0 Jul 27 08:58 testfile`
-を
+この時に次のようにしたい場合。
 `-rw-r--r-- 1 newbie engineer 0 Jul 27 08:58 testfile`
-に変更したい場合は次になる。
+`chown`は次になる。
 `chown newbie:engineer testfile`
 もしくはグループ名を省略して次のようにしても良い。
 `chown newbie testfile`
